@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Biovotion Details</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+              integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+              crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <style>
+            .biovotion-list{
+                width: 350px;
+                height: auto;
+                list-style: none;
+            }
+            .biovotion-list li{
+                border-bottom: 3px solid #384e5c;
+                color: #384e5c;
+                font-family: 'Roboto', sans-serif;
+                padding: 5px 15px 2px 15px;
+            }
+            .biovotion-list li:last-child{
+                border-bottom: none;
+            }
+            .information-content{
+                font-size: 13px;
+            }
+            .body-content{
+                width: 100%;
+                height: auto;
+                padding-bottom: 0;
+                margin-bottom: 0;
+                padding-bottom: 4px !important;
+            }
+            .main-result{
+                width: auto;
+                height: auto;
+                display: inline-block;
+                margin-bottom: 0;
+                font-size: 33px;
+                margin-top: 2px;
+            }
+            .type-result{
+                padding-left: 5px;
+                font-size: 23px;
+            }
+            .right-decription{
+                float: right;
+                width: auto;
+                height: auto;
+            }
+            .description-row{
+                width: 100%;
+                height: auto;
+                display: block;
+                font-size: 13px;
+            }
+            .description-title .description-value{
+                font-size: 13px;
+            }
+            .description-value{
+                font-weight: 600;
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <ul class="biovotion-list">
+                <li>
+                    <i class="fas fa-thermometer-half"></i>
+                    <span class="information-content">Skin Temperature</span>
+                    <section class="body-content">
+                        <h2 class="main-result">34.4</h2><span class="type-result">°C</span>
+                        <aside class="right-decription">
+                            <div class="description-row">
+                                <span class="description-title">Low</span>
+                                <span class="description-value">33.7</span>
+                            </div>
+                            <div class="description-row">
+                                <span class="description-title">Avg</span>
+                                <span class="description-value">34.2</span>
+                            </div>
+                            <div class="description-row">
+                                <span class="description-title">High</span>
+                                <span class="description-value">34.5</span>
+                            </div>
+                        </aside>
+                    </section>
+                </li>
+                <li>
+                    <i class="fas fa-shoe-prints"></i>
+                    <span class="information-content">Steps</span>
+                    <section class="body-content">
+                        <h2 class="main-result">0</h2>
+                    </section>
+                </li>
+                <li>
+                    <i class="fas fa-heartbeat"></i>
+                    <span class="information-content">Heart Rate Variability</span>
+                    <section class="body-content">
+                        <h2 class="main-result">26</h2>
+                        <aside class="right-decription">
+                            <div class="description-row">
+                                <span class="description-title">Low</span>
+                                <span class="description-value">24</span>
+                            </div>
+                            <div class="description-row">
+                                <span class="description-title">Avg</span>
+                                <span class="description-value">25</span>
+                            </div>
+                            <div class="description-row">
+                                <span class="description-title">High</span>
+                                <span class="description-value">26</span>
+                            </div>
+                        </aside>
+                    </section>
+                </li>
+                <li>
+                    <i class="fas fa-fire"></i>
+                    <span class="information-content">Energy Expendiiture</span>
+
+                    <section class="body-content">
+                        <h2 class="main-result">147</h2><span class="type-result">kCal</span>
+                    </section>
+                </li>
+                <li>
+                    <i class="fas fa-tint"></i>
+                    <span class="information-content">Galvanic Skin Response</span>
+                    <section class="body-content">
+                        <h2 class="main-result">14.45</h2><span class="type-result">kOhm</span>
+                        <aside class="right-decription">
+                            <div class="description-row">
+                                <span class="description-title">Low</span>
+                                <span class="description-value">14.04</span>
+                            </div>
+                            <div class="description-row">
+                                <span class="description-title">Avg</span>
+                                <span class="description-value">15.72</span>
+                            </div>
+                            <div class="description-row">
+                                <span class="description-title">High</span>
+                                <span class="description-value">17.71</span>
+                            </div>
+                        </aside>
+                    </section>
+                </li>
+            </ul>
+        </section>
+    </body>
+</html>
